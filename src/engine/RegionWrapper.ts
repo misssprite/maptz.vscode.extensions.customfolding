@@ -80,11 +80,11 @@ export class RegionWrapperService {
                 ate.selections = [newSelection];
 
                 //Format the document
-                vscode.commands.executeCommand(
-                    "editor.action.formatDocument",
-                    "editorHasDocumentFormattingProvider && editorTextFocus",
-                    true
-                );
+//                 vscode.commands.executeCommand(
+//                     "editor.action.formatDocument",
+//                     "editorHasDocumentFormattingProvider && editorTextFocus",
+//                     true
+//                 );
             });
     }
 
